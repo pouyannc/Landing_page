@@ -17,10 +17,9 @@ body {
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 530px;
-    padding: 8px 32px;
+    padding: 8px 50px;
 }
 
 .logo {
@@ -42,8 +41,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
-    padding: 100px 32px;
+    gap: 200px;
+    padding: 100px 50px;
 }
 
 .hero_main {
@@ -108,10 +107,9 @@ button:hover {
 }
 
 .figures img {
-    width: 150px;
+    width: 200px;
     border: 4px solid #3882f6;
     border-radius: 4px;
-    text-align: center;
 }
 
 .caption {
@@ -126,12 +124,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 0;
-}
-
-.quote p {
-    width: 850px;
-
+    padding: 50px 120px;
 }
 
 .quote .by {
@@ -145,20 +138,20 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    padding: 100px 120px;
 }
 
 .inner_block {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 200px;
+    gap: 10px;
     font-size: 24px;
     font-weight: 800;
     border-radius: 8px;
     background: #3882f6;
     color: #F9FAF8;
-    width: 900px;
+    width: 1000px;
     padding: 50px 50px;
 }
 
@@ -170,17 +163,25 @@ button:hover {
 }
 
 .inner_block button {
+    flex: none;
     cursor: pointer;
     outline: 0;
     color: #F9FAF8;
     background-color: #3882f6;
     border: 2px solid #F9FAF8;
-    font-weight: 400;
+    width: 150px;
     line-height: 1.5;
     text-align: center;
-    padding: 6px 32px;
+    padding: 6px 20px;
     font-size: 16px;
     font-weight: 800;
     border-radius: 8px;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
 }
