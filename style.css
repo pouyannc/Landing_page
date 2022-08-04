@@ -65,9 +65,10 @@ a {
     line-height: 1.5;
     text-align: center;
     border: 1px solid transparent;
-    padding: 6px 12px;
+    padding: 6px 24px;
     font-size: 16px;
-    border-radius: .25rem;
+    font-weight: 700;
+    border-radius:8px;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
@@ -138,4 +139,48 @@ button:hover {
     font-style: normal;
     font-weight: 600;
     text-align: right;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.inner_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    font-size: 24px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #3882f6;
+    color: #F9FAF8;
+    width: 900px;
+    padding: 50px 50px;
+}
+
+.inner_block p {
+    font-size: 16px;
+    font-weight: 100;
+    margin: 4px 0 0;
+    color: #E5E7EB;
+}
+
+.inner_block button {
+    cursor: pointer;
+    outline: 0;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    padding: 6px 32px;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
