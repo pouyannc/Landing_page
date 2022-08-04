@@ -55,10 +55,6 @@ a {
     width: 400px;
 }
 
-
-
-
-
 .intro_container button {
     cursor: pointer;
     outline: 0;
@@ -76,9 +72,9 @@ a {
 }
 
 button:hover {
-        color: #fff;
-        background-color: #0b5ed7;
-        border-color: #0a58ca;
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
 }
 
 
@@ -86,6 +82,41 @@ button:hover {
     width: 400px;
 }
 
+.info_header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 68px 32px;
+}
+
+.figures {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+.figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+
+}
+
+.figures img {
+    width: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.caption {
+    width: 100px;
+
+}
 
 
 .quote {
